@@ -26,7 +26,7 @@ do {
     try drop.addProvider(VaporPostgreSQL.Provider.self)
 
 } catch let error {
-    print(error)
+    print("failed with error \(error)")
 }
 
 

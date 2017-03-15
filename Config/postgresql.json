@@ -1,7 +1,0 @@
-{
-    "host":"127.0.0.1"
-    "user":"vlad-constantibuhaescu"
-    "password":"asdfgqw12"
-    "database":"taskdb"
-    "port":5432
-}
