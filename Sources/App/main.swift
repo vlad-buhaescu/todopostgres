@@ -65,7 +65,6 @@ drop.post("tasks","insert") { request in
         fatalError("title is missing")
     }
     let result = try postgreSQL.execute("INSERT INTO tasks(title) VALUES($1) RETURNING id; ",[title.makeNode()], on: connection)
-    
     return "Succes"
     
 }
